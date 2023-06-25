@@ -1,0 +1,29 @@
+.section {
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+    margin: 10px 0;
+}
+
+.section__header {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__title {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .section__title {
+        padding-bottom: 20px;
+    }
+}
+
+.section__body {
+    padding: 20px;
+}
