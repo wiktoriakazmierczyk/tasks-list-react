@@ -13,7 +13,7 @@ Basic functionalities:
 - marking if tasks are completed.
 
 ### Demo
-https://wiktoriakazmierczyk.github.io/tasks-list/
+https://wiktoriakazmierczyk.github.io/tasks-list-react/
 
 ### Used features
 HTML, CSS, JavaScript (ES6+), BEM convention, Git.
