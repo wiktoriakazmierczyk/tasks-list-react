@@ -2,20 +2,21 @@
 
 ![Task list sample](https://i.postimg.cc/d0C1LxXv/animation.gif)
 
-#### Dynamic web application to create and manage your own to-do list.
+## Demo
+**Dynamic web application to create and manage your own to-do list:**
+<br>
+https://wiktoriakazmierczyk.github.io/tasks-list-react/
 
 <br>
 
-Basic functionalities:
-
+## Basic functionalities
 - adding tasks;
 - removing tasks;
 - marking if tasks are completed.
 
-### Demo
-https://wiktoriakazmierczyk.github.io/tasks-list-react/
+<br>
 
-### Used features
+## Used features
 HTML, CSS, JavaScript (ES6+), BEM convention, Git, Node.js, Webpack, Babel, JSX.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
