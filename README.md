@@ -16,7 +16,7 @@ Basic functionalities:
 https://wiktoriakazmierczyk.github.io/tasks-list-react/
 
 ### Used features
-HTML, CSS, JavaScript (ES6+), BEM convention, Git.
+HTML, CSS, JavaScript (ES6+), BEM convention, Git, Webpack, Babel, JSX.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
