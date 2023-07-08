@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Header from "./Header";
@@ -32,7 +32,12 @@ function App() {
             <Section
                 title="Lista zadań"
                 body={<Tasks tasks={tasks} hideDone={hideDone} />}
-                extraHeaderContent={<Buttons tasks={tasks} hideDone={hideDone} />}
+                extraHeaderContent={
+                    <Buttons
+                        tasks={tasks}
+                        hideDone={hideDone}
+                        toggleHideDone={toggleHideDone}
+                    />}
             />
         </Container>
     );
