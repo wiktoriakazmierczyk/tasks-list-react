@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Header from "./Header";
@@ -39,13 +39,24 @@ function App() {
 		})));
 	};
 
+	const addNewTask = (content) => {
+		setTasks(tasks => [
+			...tasks,
+			{
+				content,
+				done: false,
+				id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
+			},
+		]);
+	};
+
 	return (
 		<Container>
 			<Header title="Lista zadań" />
 
 			<Section
 				title="Dodaj nowe zadanie"
-				body={<Form />}
+				body={<Form addNewTask={addNewTask} />}
 			/>
 
 			<Section
