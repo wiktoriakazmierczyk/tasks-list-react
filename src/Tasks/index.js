@@ -1,4 +1,4 @@
-import "./style.css";
+import './style.css';
 
 const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
     <ul className="tasks">
