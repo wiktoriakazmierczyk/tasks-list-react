@@ -1,6 +1,6 @@
-# Task list
+# Tasks list
 
-![Task list sample](https://i.postimg.cc/d0C1LxXv/animation.gif)
+![Tasks list sample](https://i.postimg.cc/d0C1LxXv/animation.gif)
 
 ## Demo
 **Dynamic web application to create and manage your own to-do list:**
